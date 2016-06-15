@@ -1,0 +1,6 @@
+﻿---
+application:
+- name: test-chat
+  memory: 512M
+  instances: 1
+  host: pedrotest-org
