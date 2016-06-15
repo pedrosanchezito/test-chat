@@ -1,0 +1,26 @@
+body
+{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 50px;
+}
+
+#main_page
+{
+	display: flex;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#chat
+{
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.message
+{
+	border: 2px #333333 solid;
+}
