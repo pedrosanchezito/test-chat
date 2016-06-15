@@ -5,7 +5,7 @@ $message = htmlspecialchars($_POST['message']);
 
 try
 {
-	$bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', '');
+	$bdd = new PDO('mysql:host=us-cdbr-iron-east-04.cleardb.net;dbname=ad_066728bfc999067;charset=utf8', 'be78ea75adc48e', '0104c83f ');
 }
 catch (Exception $e)
 {
